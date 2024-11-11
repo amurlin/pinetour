@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0
+}
+ 
+#header {
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#intro-section {
+    width: 1200px;
+    height: 605px;
+    background-color: #f4f4f4;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+#intro-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+#title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87.77px;
+    color: #303030;
+    text-align: center;
+}
+ 
+#sub-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    width: 58px;
+    color: #ababab;
+    text-align: center;
+}
+ 
+#intro-image-container {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    margin-top: 80px;
+}
+ 
+.nature-image {
+    width: 284px;
+    height: 400px;
+}
+
+.nature-image:hover {
+    scale: 1.6;
+}
+ 
+/* ---------- Direction section ---------- */
+ 
+#direction-section {
+    width: 1200px;
+    height: 845px;
+    margin-top: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+#Direction {
+    width: 358px;
+    height: 796px;
+}
+ 
+#direction-title {
+    width: 358px;
+    height: 157px;
+}
+ 
+#tours {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ababab;
+}
+ 
+#destination {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #303030;
+}
+ 
+#day-plan {
+    width: 303px;
+    height: 559px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.days {
+    width: 303px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+ 
+.round {
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    background-color: black;
+    color: #16A94A;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.Where {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+ 
+.where {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+ 
+.where-2 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #777777;
+}
+ 
+.line {
+    width: 56px;
+    height: 56px;
+    margin-left: 28px;
+    border-left: 1px dotted black;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+ 
+/* ---------- Pricing section ---------- */
+ 
+#pricing-section {
+    width: 789px;
+    height: 607px;
+    margin-top: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+#pricing-title {
+    width: 299px;
+    height: 157px;
+    gap: 10px;
+}
+ 
+#pricing {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ababab;
+}
+ 
+#pricing-of-our-agency {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #303030;
+}
+ 
+#boxed-price {
+    width: 590px;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+.box {
+    width: 285px;
+    height: 370px;
+    background-color: white;
+    border-radius: 24px;
+}
+ 
+.include {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+ 
+.included-1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #303030;
+}
+ 
+.included-2 {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #777777;
+    gap: 13px;
+}
+ 
+.price {
+    width: 205px;
+    height: 39px;
+    color: #303030;
+    display: flex;
+    justify-content: end;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 40px;
+}
+ 
+/* --------- Ready section ---------- */
+ 
+#ready-section {
+    width: 100vw;
+    height: 393px;
+    margin-top: 240px;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+#r-u-ready {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+ 
+#order {
+    width: 130px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18BA51;
+    border-radius: 4px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+ 
+#footer {
+    width: 100vw;
+    height: 228px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+#footer-section {
+    width: 1200px;
+    height: 68px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
