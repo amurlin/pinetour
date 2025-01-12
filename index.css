@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
 }
 
 #title {
@@ -50,15 +51,29 @@
     flex-direction: row;
     gap: 21px;
     margin-top: 80px;
+    /* position: relative; */
+    /* overflow: hidden; */
 }
 
 .nature-image {
     width: 284px;
     height: 400px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
-.nature-image:hover {
-    scale: 1.4;
+.nature-image img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.nature-image:hover img{
+    scale: 1.2;
+    transition: 1s;
 }
 
 /* ---------- Direction section ---------- */
@@ -186,7 +201,7 @@
 }
 
 #pricing-title {
-    width: 299px;
+    width: 250px;
     height: 157px;
     gap: 10px;
 }
@@ -280,7 +295,8 @@
 }
 
 .box:hover {
-    scale: 1.4;
+    border: 2px solid #18BA51;
+    cursor: pointer;
 }
 
 /* --------- Ready section ---------- */
@@ -293,16 +309,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 #r-u-ready {
-    font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
     line-height: 39.01px;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: white;
 }
 
@@ -314,14 +329,24 @@
     align-items: center;
     background-color: #18BA51;
     border-radius: 4px;
-    color: white;
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
     line-height: 19.5px;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#order:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#order:hover a{
+    color: #18BA51;
 }
 
 #footer {
